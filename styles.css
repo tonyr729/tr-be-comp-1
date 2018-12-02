@@ -1,0 +1,89 @@
+body {
+  color: #fff;
+}
+
+button {
+  width: 140px;
+  height: 45px;
+  background: none;
+  border: 2px solid #fff;
+}
+
+button img {
+  height: 50%;
+}
+
+button p {
+  display: inline;
+  vertical-align: 5px;
+  color: #fff;
+}
+
+.title_content {
+  margin: 0 32px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "title title profile carousel carousel""experience education blog carousel carousel""social contact portfolio carousel carousel";
+  width: 1080px;
+  height: 650px;
+  margin: 115px auto;
+}
+
+.content-container {
+  width: 40%;
+  margin: 30% auto;
+  text-align: center;
+}
+
+.sub-title {
+  margin: 0;
+}
+
+.title {
+  background-color: #35bc7a;
+  grid-area: title;
+}
+
+.profile {
+  background-color: #ff9e00;
+  grid-area: profile;
+}
+
+.experience {
+  background-color: #1e8bc4;
+  grid-area: experience;
+}
+
+.education {
+  background-color: #f15a49;
+  grid-area: education;
+}
+
+.blog {
+  background-color: #35bc7a;
+  grid-area: blog;
+}
+
+.social {
+  background-color: #f86925;
+  grid-area: social;
+}
+
+.contact {
+  background-color: #1e8bc4;
+  grid-area: contact;
+}
+
+.portfolio {
+  background-color: #f86925;
+  grid-area: portfolio;
+}
+
+.carousel {
+  background-image: url('./img/brad.png');
+  grid-area: carousel;
+}
